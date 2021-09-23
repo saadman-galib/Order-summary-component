@@ -44,7 +44,6 @@
     letter-spacing: 0.4px;
     line-height: 23px;
     font-weight: 600;
-    /* color: hsl(226, 25%, 77%); */
     color: hsl(226, 20%, 71%);
     padding: 12px;
 }
@@ -56,7 +55,7 @@
     padding: 16px;
     border-radius: 12px;
     align-items: center;
-    margin: 0 35px;
+    margin: 0 40px;
 }
 
 .plan-section .img img{
@@ -65,22 +64,35 @@
 
 .plan-section .annual-plan h2{
     color:  hsl(223, 47%, 23%);
+    font-size: 20px;
 }
 
 .plan-section .annual-plan p{
     color: hsl(226, 20%, 71%);
     font-weight: 600;
-    /* color: hsl(225, 100%, 94%); */
 }
 
-
+.plan-section .change{
+    margin: auto;
+    margin-right: 0;   
+}
 
 .plan-section .change a{
     color: hsl(245, 75%, 52%);
     text-decoration: underline;
     font-weight: 600;
-    /* float: right; */
-    /* margin-right: auto; */
-    /* position: absolute; */
-    /* right: 5; */
+}
+
+.btn-section{
+    display: flex;
+    flex-direction: column;
+}
+
+.btn{
+    border: none;
+    width:auto;
+}
+
+.btn-payment{
+    background-color: hsl(245, 75%, 52%);
 }
