@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main-container{
+    min-width: 100vw;
+    min-height: 100vh;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+.container{
+    width: 450px;
+    height: 550px;
+    margin: auto;
+    border-radius: 16px;
+}
+
+.top-part{
+    height: 221px;
+    background: url('../images/illustration-hero.svg') no-repeat center;
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+}
+
