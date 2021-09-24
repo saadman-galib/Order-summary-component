@@ -25,7 +25,7 @@ To clone and run this application, you'll need [Git](https://git-scm.com) instal
 
 ```bash
 # Clone this repository
-$ git clone https://github.com/saadman/galib/
+$ git clone https://github.com/saadman-galib/Order-summary-component.git
 ```
 
 ## Acknowledgements
