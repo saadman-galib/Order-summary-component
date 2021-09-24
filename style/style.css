@@ -175,6 +175,10 @@
     }
 
     .plan-section{
-        margin: 0 28px;
+        margin: 0 20px;
+    }
+    
+    .annual-plan{
+        margin-right: 15px;
     }
 }
