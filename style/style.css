@@ -86,13 +86,15 @@
 
 .plan-section .change{
     margin: auto;
-    margin-right: 0;   
+    margin-right: 0px;   
 }
 
 .plan-section .change a{
     color: hsl(245, 75%, 52%);
     text-decoration: underline;
     font-weight: 600;
+    transition: 0.3s ease-out;
+    transition-property: color, text;
 }
 
 .plan-section .change a:hover{
@@ -121,8 +123,11 @@
 
 .btn-payment{
     background-color: hsl(245, 75%, 52%);
-    margin-bottom: 8px;
+    margin-bottom: 25px;
     color: #fff;
+    transition: 0.3s ease-in;
+    transition-property: background;
+    box-shadow: 0 18px 14px 0px rgba(0, 0, 0, 0.2);
 }
 
 .btn-payment:hover{
@@ -132,6 +137,8 @@
 .btn-submit{
     color: hsl(226, 20%, 71%);
     background-color: #fff;
+    transition: 0.3s ease-in;
+    transition-property: color;
 }
 
 .btn-submit:hover{
@@ -142,4 +149,32 @@
 
 @media (min-width: 1440px) {
     /* *{display: none;} */
+    .main-container{
+        background-image: none;
+    }
+}
+
+@media (max-width: 375px) {
+    /* *{display: none;} */
+
+    .main-container{
+        background-image: url('../images/pattern-background-mobile.svg');
+    }
+
+    .container{
+        max-width: 350px !important;
+        padding: 25px 25px;
+    }
+
+    br{
+        display: none;
+    }
+
+    .word-section p{
+        margin: 0 18px;
+    }
+
+    .plan-section{
+        margin: 0 28px;
+    }
 }
