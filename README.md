@@ -1,4 +1,4 @@
-<h1 align="center">{project name}</h1>
+<h1 align="center">Order Summary Component</h1>
 
 ## Table of Contents
 
