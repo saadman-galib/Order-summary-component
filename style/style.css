@@ -163,6 +163,18 @@
     .main-container{
         padding: 35px 35px;
     }
+
+    .plan-section .annual-plan h2{
+        font-size: 16px;
+    }
+
+    .plan-section .annual-plan p{
+        font-size: 14px;
+    }
+
+    .plan-section .change a{
+        font-size: 14px;
+    }
 }
 
 @media (max-width: 375px) {
